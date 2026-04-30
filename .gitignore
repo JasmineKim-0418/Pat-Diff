@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Model artifacts and outputs
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+runs/
+wandb/
+lightning_logs/
+
+# Data
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+*.mat
+data/
+datasets/
+
+# Inference results
+inference_results/
+*_comparison_*.png
+debug_vis/
+
+# Logs
+*.log

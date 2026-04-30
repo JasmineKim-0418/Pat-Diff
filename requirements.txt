@@ -1,0 +1,11 @@
+torch>=2.0
+torchvision
+torchmetrics>=1.0
+diffusers>=0.21
+transformers>=4.30
+numpy
+Pillow
+matplotlib
+nibabel
+scikit-image
+tqdm
