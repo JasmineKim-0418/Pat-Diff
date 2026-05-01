@@ -55,11 +55,6 @@ Expected directory layout:
     └── caption_test.txt
 ```
 
-Caption example:
-```
-AD_002_S_5018_MRI_axial_047_3.npy|A brain PET scan of a 75-year-old female.|AD
-```
-
 You will also need the **AD-effect map** (`.nii.gz`) from Oh et al. (NeuroImage 2025) — set the path via `Config.roi_map_path` in `train.py`.
 
 ## Training
@@ -84,10 +79,6 @@ python inference.py \
 The script saves a 4-panel comparison plot per slice (MRI · GT PET · synthesized PET · residual) and prints PSNR / SSIM / MSE per diagnostic group (CN / SMC / EMCI / MCI / LMCI / AD).
 
 ## Acknowledgements
-
-This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korean government (MSIT):
-- No. RS-2022-II220959 — *(Part 2) Few-Shot Learning of Causal Inference in Vision and Language for Decision Making*
-- No. RS-2019-II190079 — *Department of Artificial Intelligence (Korea University)*
 
 We acknowledge the use of the following publicly available dataset:
 - [Alzheimer's Disease Neuroimaging Initiative (ADNI)](https://ida.loni.usc.edu/) — paired MRI–PET scans
